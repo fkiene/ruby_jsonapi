@@ -17,7 +17,7 @@ Ruby JSONAPI is a fork of the jsonapi-serializer gem (which was itself forked fr
 ## Contents
 
 - [Installation](installation.md)
-- Usage
+- [Usage](usage/index.md)
   - [Basic Serialization](usage/basic-serialization.md)
   - [Working with Relationships](usage/relationships.md)
   - [Customization Options](usage/customization.md)

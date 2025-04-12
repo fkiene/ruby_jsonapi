@@ -95,12 +95,17 @@ json_string = serializer.serializable_hash.to_json
 
 ## Documentation
 
-For complete documentation, please see the [docs directory](docs/):
+For complete documentation, please visit our [GitHub Pages site](https://fkiene.github.io/ruby_jsonapi/):
 
-- [Installation](docs/installation.md)
-- [Usage Guide](docs/usage/index.md)
-- [Performance](docs/performance.md)
-- [Migration from jsonapi-serializer](docs/migration.md)
+- [Installation](https://fkiene.github.io/ruby_jsonapi/installation.html)
+- [Usage](https://fkiene.github.io/ruby_jsonapi/usage/index.html)
+  - [Basic Serialization](https://fkiene.github.io/ruby_jsonapi/usage/basic-serialization.html)
+  - [Working with Relationships](https://fkiene.github.io/ruby_jsonapi/usage/relationships.html)
+  - [Customization Options](https://fkiene.github.io/ruby_jsonapi/usage/customization.html)
+  - [Advanced Features](https://fkiene.github.io/ruby_jsonapi/usage/advanced-features.html)
+- [Performance Considerations](https://fkiene.github.io/ruby_jsonapi/performance.html)
+- [Migration from fast_jsonapi](https://fkiene.github.io/ruby_jsonapi/migration.html)
+- [JSON Serialization](https://fkiene.github.io/ruby_jsonapi/json_serialization.html)
 
 ## Contributing
 
