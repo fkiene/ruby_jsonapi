@@ -4,17 +4,16 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'jsonapi/serializer/version'
 
 Gem::Specification.new do |gem|
-  gem.name = 'jsonapi-serializer'
+  gem.name = 'ruby_jsonapi'
   gem.version = JSONAPI::Serializer::VERSION
-
   gem.authors = ['JSON:API Serializer Community']
   gem.email = ''
 
-  gem.summary = 'Fast JSON:API serialization library'
-  gem.description = 'Fast, simple and easy to use ' \
-                    'JSON:API serialization library (also known as fast_jsonapi).'
-  gem.homepage = 'https://github.com/jsonapi-serializer/jsonapi-serializer'
+  gem.summary = 'Fast, enhanced, and compliant Ruby implementation of the JSON:API specification'
+  gem.description = 'Fast, enhanced, and compliant Ruby implementation of the JSON:API specification, evolving from jsonapi-serializer/jsonapi-serializer (originally Netflix/fast_jsonapi) with enhanced features beyond serialization.'
+  gem.homepage = 'https://github.com/fkiene/ruby_jsonapi'
   gem.licenses = ['Apache-2.0']
+
   gem.files = Dir['lib/**/*']
   gem.require_paths = ['lib']
   gem.extra_rdoc_files = ['LICENSE.txt', 'README.md']
@@ -33,5 +32,6 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('rubocop-rspec')
   gem.add_development_dependency('simplecov')
   gem.add_development_dependency('sqlite3')
+
   gem.metadata['rubygems_mfa_required'] = 'true'
 end
