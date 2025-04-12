@@ -22,7 +22,7 @@ RSpec.describe JSONAPI::Serializer do
 
     expect(serializer.serializable_hash).not_to be_nil
 
-    expect(event_name).to eq('render.jsonapi-serializer.serializable_hash')
+    expect(event_name).to eq('render.ruby_jsonapi.serializable_hash')
     expect(payload[:name]).to eq(serializer.class.name)
     expect(payload[:serializer]).to eq(serializer.class)
   end

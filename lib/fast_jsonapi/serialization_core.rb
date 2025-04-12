@@ -104,7 +104,7 @@ module FastJsonapi
         return options unless fieldset
 
         options = options ? options.dup : {}
-        options[:namespace] ||= 'jsonapi-serializer'
+        options[:namespace] ||= 'ruby_jsonapi'
 
         fieldset_key = fieldset.join('_')
 

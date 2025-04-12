@@ -6,7 +6,7 @@ module JSONAPI
     # Support for instrumentation
     module Instrumentation
       # Performance instrumentation namespace
-      NOTIFICATION_NAMESPACE = 'render.jsonapi-serializer.'.freeze
+      NOTIFICATION_NAMESPACE = 'render.ruby_jsonapi.'.freeze
 
       # Patch methods to use instrumentation...
       %w[
