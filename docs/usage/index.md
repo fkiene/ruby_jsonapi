@@ -1,3 +1,11 @@
+---
+layout: default
+title: Usage Guide
+nav_order: 3
+has_children: true
+permalink: /usage/
+---
+
 # Usage Guide
 
 This guide provides an overview of how to use Ruby JSONAPI to serialize your Ruby objects according to the JSON:API specification.

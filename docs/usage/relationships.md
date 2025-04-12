@@ -1,3 +1,10 @@
+---
+layout: default
+title: Working with Relationships
+parent: Usage Guide
+nav_order: 2
+---
+
 # Working with Relationships
 
 This guide explains how to handle relationships between resources in Ruby JSONAPI.
@@ -162,7 +169,7 @@ class MovieSerializer
 
   attributes :name, :year
 
-  has_many :actors do |movie|
+  has_many :actors do |movie| 
     movie.actors.order(:name)
   end
 end
@@ -179,7 +186,7 @@ class MovieSerializer
   attributes :name, :year
 
   has_many :reviews, if: Proc.new { |movie| movie.show_reviews? }
-  belongs_to :director, if: Proc.new { |movie, params|
+  belongs_to :director, if: Proc.new { |movie, params| 
     params && params[:admin] == true
   }
 end

@@ -1,0 +1,32 @@
+title: Ruby JSONAPI
+description: Fast, enhanced, and compliant Ruby implementation of the JSON:API specification
+remote_theme: just-the-docs/just-the-docs
+color_scheme: dark
+
+# Enable or disable the site search
+search_enabled: true
+
+# Aux links for the upper right navigation
+aux_links:
+  "Ruby JSONAPI on GitHub":
+    - "https://github.com/fkiene/ruby_jsonapi"
+
+# Makes Aux links open in a new tab
+aux_links_new_tab: true
+
+# Back to top link
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Default layouts
+defaults:
+  -
+    scope:
+      path: ""
+    values:
+      layout: "default"
+  -
+    scope:
+      path: "usage"
+    values:
+      layout: "page"

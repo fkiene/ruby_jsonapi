@@ -46,3 +46,6 @@ Gemfile.lock
 
 # Gem builds
 /*.gem
+
+# Jekyll generated files
+/docs/_site

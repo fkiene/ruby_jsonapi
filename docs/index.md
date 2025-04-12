@@ -1,3 +1,11 @@
+---
+layout: default
+title: Home
+nav_order: 1
+description: "Ruby JSONAPI - Fast, enhanced, and compliant Ruby implementation of the JSON:API specification"
+permalink: /
+---
+
 # Ruby JSONAPI Documentation
 
 Welcome to the Ruby JSONAPI documentation. This library provides fast and efficient JSON:API serialization for Ruby objects.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: JSON Serialization
+nav_order: 7
+---
+
 # JSON Serialization Support
 
 Support for JSON serialization is no longer provided as part of the API of

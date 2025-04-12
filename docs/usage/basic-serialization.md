@@ -1,3 +1,10 @@
+---
+layout: default
+title: Basic Serialization
+parent: Usage Guide
+nav_order: 1
+---
+
 # Basic Serialization
 
 This guide covers the fundamentals of serializing Ruby objects with Ruby JSONAPI.

@@ -1,3 +1,9 @@
+---
+layout: default
+title: Performance Considerations
+nav_order: 4
+---
+
 # Performance Considerations
 
 Ruby JSONAPI is designed to be fast and efficient. This guide covers performance considerations, benchmarks, and instrumentation options.

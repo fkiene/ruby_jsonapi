@@ -1,3 +1,10 @@
+---
+layout: default
+title: Advanced Features
+parent: Usage Guide
+nav_order: 4
+---
+
 # Advanced Features
 
 This guide covers advanced features of Ruby JSONAPI including caching, sparse fieldsets, and more.

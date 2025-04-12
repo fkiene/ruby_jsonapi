@@ -1,3 +1,9 @@
+---
+layout: default
+title: Migration Guide
+nav_order: 6
+---
+
 # Migrating to Ruby JSONAPI
 
 This guide helps users migrating from either fast_jsonapi or jsonapi-serializer to Ruby JSONAPI.

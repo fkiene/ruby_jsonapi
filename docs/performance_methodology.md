@@ -1,3 +1,10 @@
+---
+layout: default
+title: Performance Methodology
+nav_order: 5
+parent: Performance Considerations
+---
+
 # Performance using Fast JSON API
 
 We have been getting a few questions about Fast JSON API's performance

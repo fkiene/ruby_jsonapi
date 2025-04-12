@@ -1,3 +1,10 @@
+---
+layout: default
+title: Customization Options
+parent: Usage Guide
+nav_order: 3
+---
+
 # Customization Options
 
 This guide covers various ways to customize the serialization output in Ruby JSONAPI.
@@ -7,7 +14,7 @@ This guide covers various ways to customize the serialization output in Ruby JSO
 The following table describes all customization options available for serializers:
 
 Option | Purpose | Example
------------- | ------------- | -------------
+------------ | ------------- | ------------- 
 set_type | Type name of Object | `set_type :movie`
 key | Key of Object | `belongs_to :owner, key: :user`
 set_id | ID of Object | `set_id :owner_id` or `set_id { |record, params| params[:admin] ? record.id : "#{record.name.downcase}-#{record.id}" }`
