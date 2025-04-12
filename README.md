@@ -7,7 +7,7 @@ A fast and efficient [JSON:API](https://jsonapi.org/) serializer for Ruby object
 
 ## Introduction
 
-Ruby JSONAPI is a fork of the jsonapi-serializer gem (which was itself forked from Netflix's fast_jsonapi).
+Ruby JSONAPI is a fork of the [jsonapi-serializer](https://github.com/jsonapi-serializer/jsonapi-serializer) gem (which was itself forked from [Netflix's fast_jsonapi](https://github.com/Netflix/fast_jsonapi)).
 This library provides a simple and performant way to serialize your Ruby objects according to the [JSON:API specification](https://jsonapi.org/).
 
 ### Why This Fork?
