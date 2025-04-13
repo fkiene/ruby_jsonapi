@@ -20,6 +20,16 @@ Gem::Specification.new do |gem|
 
   gem.add_runtime_dependency('activesupport', '>= 4.2')
 
+  gem.metadata = {
+    'homepage_uri' => gem.homepage,
+    'bug_tracker_uri' => 'https://github.com/fkiene/ruby_jsonapi/issues',
+    'documentation_uri' => 'https://fkiene.github.io/ruby_jsonapi/',
+    'changelog_uri' => 'https://github.com/fkiene/ruby_jsonapi/blob/main/CHANGELOG.md',
+    'source_code_uri' => 'https://github.com/fkiene/ruby_jsonapi',
+    'rubygems_mfa_required' => 'true',
+    'github_repo' => 'https://github.com/fkiene/ruby_jsonapi'
+  }
+
   gem.add_development_dependency('activerecord')
   gem.add_development_dependency('bundler')
   gem.add_development_dependency('byebug')
@@ -32,6 +42,4 @@ Gem::Specification.new do |gem|
   gem.add_development_dependency('rubocop-rspec')
   gem.add_development_dependency('simplecov')
   gem.add_development_dependency('sqlite3')
-
-  gem.metadata['rubygems_mfa_required'] = 'true'
 end
