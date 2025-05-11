@@ -7,9 +7,10 @@ unless RUBY_ENGINE == 'truffleruby'
   SimpleCov.minimum_coverage 90
 end
 
-require 'active_support'
-require 'active_support/core_ext/object/json'
+require 'action_controller'
+require 'active_support/all'
 require 'jsonapi/serializer'
+require 'jsonapi/deserializer'
 require 'ffaker'
 require 'rspec'
 require 'jsonapi/rspec'
